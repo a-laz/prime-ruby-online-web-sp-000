@@ -2,9 +2,7 @@
 require 'pry'
 def prime?(number)
   #binding.pry
-  if number == 1
-    false
-  elsif number < 0
+  if number == 1 || number <= 0
     false
   else
     divisor = 2
