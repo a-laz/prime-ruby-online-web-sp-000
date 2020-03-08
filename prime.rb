@@ -10,6 +10,6 @@ def prime?(number)
       return false if number % divisor == 0
       divisor += 1
     end
+    true
   end
-  true
 end
